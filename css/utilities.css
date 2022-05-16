@@ -41,6 +41,12 @@
     color: #fff;
 }
 
+
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -51,12 +57,30 @@
 
 }
 
-.bg-light, .btn-light {
-    background-color: var(--light-color);
-    color: #333;
+/* text color */
+
+.text-primary {
+   color: var(--primary-color);
+    
 }
 
-/*text sixez */
+.text-secondary {
+    color: var(--secondary-color);
+   
+}
+
+.text-dark {
+    color: var(--dark-color);
+    
+}
+
+
+.text-light {
+    color: var(--light-color);
+    
+}
+
+/*text sizes */
 .lead{
     font-size: 20px;
 }
@@ -90,6 +114,27 @@
     text-align: center;
 }
 
+/*ALER */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
 
 
 
@@ -115,23 +160,23 @@
 
 /*MARGIN */
 
-.py-1{
+.my-1{
     margin: 1rem 0;
 }
 
-.py-2 {
+.my-2 {
     margin: 1.5rem 0;
 }
 
-.py-3{
+.my-3{
     margin: 2rem 0;
 }
 
-.py-4 {
+.my-4 {
     margin: 3rem 0;
 }
 
-.py-5 {
+.my-5 {
     margin: 4rem 0;
 }
 
